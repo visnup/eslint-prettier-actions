@@ -4,7 +4,7 @@
       "owner": "eslint-stylish",
       "pattern": [
         {
-          "regexp": "^/home/runner/work/[^/]+/[^/]+/([^\\s].*)$",
+          "regexp": "^([^\\s].*)$",
           "file": 1
         },
         {
