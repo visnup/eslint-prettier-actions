@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 12.x
       - run: npm ci
-      - run: |
+      - name: ESLint
+        run: |
           echo ::add-matcher::.github/eslint.json
           npm test
